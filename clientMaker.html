@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>客户定制中心</title>
+	<link rel="stylesheet" type="text/css" href="css/normal.css">
+	<link rel="stylesheet" type="text/css" href="css/clientMaker.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+	<div id="wrapper" class="clear_fix">
+		<div class="header">
+	       <div class="nav nav-normal">
+	         <ul class="clear_fix">
+	           <li><a href="index.html">首页</a></li>
+	           <li><a href="new.html">新品推荐</a></li>
+	           <li><a href="clientMaker.html">定制中心</a></li>
+	           <li><a href="allproduct.html">所有产品</a></li>
+	           <li><a href="aboutMe.html">最新动态</a></li>
+	         </ul>
+	       </div><!--nav结束-->
+	       <div class="login-register">
+		        <a href="#" id="login" class="login-scroll-style">登录</a>
+		        <a href="#" id="register" class="register-scroll-style">注册</a>
+    		</div>
+	    </div><!--header结束-->
+		<div id="form">
+		<h5>客户定制资料</h5>
+			<form action="public.php"  method="post">
+				<p><span>客户姓名</span><input type="text" name="client_name"></p>
+				<p>
+				  <span>客户性别</span>
+                  <b>男</b><input type="radio" name="client_sex" id="man" value="男">
+                  <b>女</b><input type="radio" name="client_sex" id="women" value="女">
+				</p>
+				<p><span>联系方式</span><input type="text" name="client_connact"></p>
+				<p>
+					<span>地址信息</span>
+					<select name="provin" id="provin">
+						<option>请选择省份</option>
+					</select>
+
+					<select name="city" id="city">
+						<option>请选择市</option>
+					</select>
+
+					<select name="area" id="area">
+						<option>请选择区/县</option>
+					</select>
+				</p>
+				<p><span>详细地址</span><input type="text" name="client_address"></p>
+				<p><span>邮箱地址</span><input type="text" name="client_email"></p>
+				<p>
+				  <span>风格分类</span>
+                  <select name="season" id="season">
+                     <option>请选择季节</option>
+                  </select>
+
+                  <select name="style" id="style">
+                     <option>请选择穿着类型</option>
+                  </select>
+
+                  <select name="detail" id="detail">
+                     <option>请选择服装明细</option>
+                  </select>
+				</p>
+				<p><span>详细要求</span><input type="text" name="client_requirea" id="client_requirea"></p>
+				<input type="submit" value="提交我的创意" id="submit">
+			</form>
+		</div>
+		<div id="intro">
+           <p class="intro-title">为你打造独一无二的穿着风格</p>
+           <p class="intro-content">让你活出自己独有的生活态度</p>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/client.js"></script>
+</body>
+</html>
