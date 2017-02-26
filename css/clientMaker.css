@@ -1,0 +1,82 @@
+body{
+	background: url(../images/bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#wrapper{
+	width: 100%;
+	height: 100%;
+}
+#form,#intro{
+	float: left;
+}
+#form{
+    width:40%;
+    margin-top: 120px;
+    margin-left: 5%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    background-color: rgba(255,255,255,0.6);
+    display: none;
+}
+#form h5{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 30px;
+}
+#form form{
+	display: block;
+	width:100%;
+	margin-top: 30px;
+}
+#form form P{
+	margin-bottom: 20px;
+}
+#form form P span{
+	display: inline-block;
+	width: 80px;
+	line-height: 30px;
+}
+#form form P input{
+	width: 200px;
+	line-height: 30px;
+	border: 1px solid #999;
+}
+#form form P input:focus{
+	outline: none;
+}
+#intro{
+	margin-top: 120px;
+	margin-left: 15%;
+	width: 30%;
+	display: none;
+}
+.intro-title{
+	font-size: 40px;
+	font-weight: bold;
+	color: #fff;
+}
+.intro-content{
+	margin-top:20px;
+	font-size: 20px;
+	color: #fff
+}
+#man,#women{
+	width: 30px !important;
+}
+#client_requirea{
+	width: 300px !important;
+}
+#submit{
+	display: block;
+	width: 250px;
+	line-height: 50px;
+	margin-bottom: 30px;
+	background-color: #5995F9;
+	color: #fff;
+}
+#submit:hover{
+	background-color: #71BBE3;
+}

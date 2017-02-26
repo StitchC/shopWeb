@@ -1,0 +1,96 @@
+*{
+	padding:0;
+	margin:0;
+	border:0;
+	font-family:"微软雅黑";
+}
+li{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+.clear_fix:after{
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;
+}
+.clear_fix{
+	zoom:1;
+}
+.sort-wrapper{
+	margin: 0 auto;
+}
+.header{
+	position: fixed;
+	top: 0;
+	z-index: 255;
+	width: 100%;
+	height: 65px;
+}
+.nav{
+	width: 980px;
+	margin: 0 auto;
+}
+.nav ul li a{
+	display: block;
+	float: left;
+	width: 20%;
+	line-height: 65px;
+	text-align: center;
+	font-weight: bold;
+}
+.nav-normal ul li a:hover{
+	background-color: rgba(255,255,255,0.3);
+	border-bottom: 2px solid #fff;
+}
+.nav-scroll ul li a:hover{
+    background-color:#F05549;
+    color: #fff;
+    border: none;
+}
+.header-scroll{
+	background-color: #fff;
+}
+.login-register{
+	position: absolute;
+	right: 10px;
+	top: 15px;
+}
+.login-register a{
+	display: inline-block;
+	width: 75px;
+	line-height: 35px;
+	text-align: center;
+}
+.login-style{
+	background-color: #333333;
+	color: #fff;
+}
+.register-style{
+	background-color: #999999;
+	color: #fff;
+}
+.login-scroll-style{
+	background-color: #FF6666;
+	color: #fff;
+}
+.register-scroll-style{
+	background-color: #99CC99;
+	color: #fff;
+}
+.footer{
+    width: 100%;
+    line-height: 80px;
+    margin-top: 50px;
+    background-color: #424242;	
+}
+.footer span{
+	display: block;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+}

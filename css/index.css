@@ -1,0 +1,261 @@
+.slider{
+	position: relative;
+	width: 100%;
+	height: 800px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#move{
+	display: block;
+	position: absolute;
+	height: 100%;
+}
+#move li{
+	display: block;
+	float: left;
+	height: 100%;
+}
+#move li a img{
+	width: 100%;
+	height: 100%;
+}
+#describe{
+	position: absolute;
+	z-index: 20;
+	top: 40%;
+	left: 5%;
+	padding: 1px;
+	width: 400px;
+	height: 300px;
+	background-color: rgba(255,255,255,0.4);
+	overflow: hidden;
+}
+#describe ul li{
+	display: block;
+	width: 400px;
+	height: 300px;
+}
+#describe h4{
+	font-size: 30px;
+	margin-top: 80px;
+	margin-left: 30px;
+}
+#describe p{
+	margin-left: 30px;
+	margin-top: 30px;
+	font-size: 25px;
+}
+#controler{
+	position: absolute;
+	z-index: 28;
+	top: 95%;
+	left: 50%;
+}
+#controler div{
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin: 0 2px;
+	border: 1px solid #999;
+	border-radius: 50%;
+}
+#to-left,#to-right{
+	position: absolute;
+	z-index: 28;
+	top: 50%;
+	width: 40px;
+	height: 40px;
+}
+#to-left{
+	background-image: url(../images/left.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.5;
+	-webkit-opacity:0.5;
+	-moz-opacity:0.5;
+	-o-opacity:0.5;
+}
+#to-right{
+	background-image: url(../images/right.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.5;
+	-webkit-opacity:0.5;
+	-moz-opacity:0.5;
+	-o-opacity:0.5;
+	right: 0;
+}
+.onfocus{
+	background-color: #999;
+}
+.main-intro{
+	margin-top: 90px;
+	width: 100%;
+}
+.intro-1-content{
+	margin-top: 40px;
+}
+.sort-title{
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+.sort-content-img{
+	width: 45%;
+}
+.sort-content-img img{
+	width: 100%;
+	height: 100%;
+}
+.sort-content-text{
+	width: 52%;
+	margin-top: 40px;
+}
+.intro-1-img{
+	float: left;
+}
+.intro-1-text{
+	float: left;
+}
+.sort-content-text h5{
+	font-size: 30px;
+	text-align: center;
+}
+.sort-content-text p{
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+}
+.sort-content-text a{
+	display: block;
+	text-align: center;
+	width: 180px;
+	line-height: 60px;
+	margin: 40px auto 0px auto;
+}
+.intro1-btn{
+	border: 1px solid red;
+}
+.intro1-btn:hover{
+	background-color: #F05549;
+	border: 0px;
+	color: #fff;
+}
+.intro-2-content{
+	padding-top: 1px;
+	margin-top: 40px;
+}
+.intro-2-img{
+	float: right;
+}
+.intro2-btn{
+	border: 1px solid green;
+}
+.intro2-btn:hover{
+	border: 0px;
+	background-color: green;
+	color: #fff;
+}
+.designer-img,.designer-intro{
+	margin: 0 auto;
+}
+.designer-img{
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+	margin: 30px auto 0px auto;
+}
+.designer-img img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	zoom: 1;
+}
+.designer-info{
+	float: left;
+	width: 20%;
+	height: 500px;
+	border: 1px solid #999;
+	margin: 50px 2.3%;
+}
+.designer-intro{
+	margin-top: 100px;
+}
+.designer-intro p{
+	text-align: center;
+	line-height: 30px;
+}
+.designer-info:hover{
+    box-shadow: 0px 0px 10px #999;
+    border: 1px solid #fff;
+}
+.intro-4-main{
+	margin-top: 80px;
+}
+.intro-4-main div{
+	float: left;
+}
+.intro4-leftImg,.intro4-rightImg{
+	width: 30%;
+	height: 280px;
+}
+.intro-4-text{
+	width: 40%;
+}
+.intro-4-text h5{
+	text-align: center;
+	font-size: 30px;
+}
+.intro-4-text p{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.intro-4-main div img{
+	width: 100%;
+	height: 100%;
+}
+.intro4-btn{
+	display: block;
+	line-height:60px;
+	width: 180px;
+	margin: 30px auto 0px auto;
+	text-align: center;
+	border: 1px solid #0772B8;
+}
+.intro4-btn:hover{
+	border: 0px;
+	background-color: #0772B8;
+	color: #fff;
+}
+.news-content{
+	width: 80%;
+	margin:50px auto 0px auto;
+}
+.news-center-title{
+	font-size: 30px;
+	text-align: center;
+}
+.news-content ul li{
+	display: block;
+	float: left;
+	width: 45%;
+	margin: 10px 2% 10px 2%;
+	font-size: 12px
+}
+.news-content ul li h6{
+	font-size: 25px;
+	text-align: center;
+}
+.news-content ul li b{
+	margin-left: 10%;
+}
+.look_more{
+	margin-left: 10%;
+	color:  #0772B8;
+}
+.news-content ul li p{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
